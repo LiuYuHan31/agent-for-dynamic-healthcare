@@ -48,7 +48,7 @@ window.workshopPeople = {
       profileUrl: "https://research.nvidia.com/person/daguang-xu",
       image: "pic/Daguang.jpg",
       imageAlt: "Photo of Daguang Xu",
-      imagePosition: "center top",
+      imagePosition: "58% top",
       imageScale: "1.28"
     }
   ],
@@ -93,7 +93,9 @@ window.workshopPeople = {
       affiliation: "Northeastern University",
       profileUrl: "https://www.khoury.northeastern.edu/people/wengong-jin/",
       image: "pic/wengong.jpg",
-      imageAlt: "Photo of Wengong Jin"
+      imageAlt: "Photo of Wengong Jin",
+      imagePosition: "center top",
+      imageScale: "1.18"
     },
     {
       name: "Xiang Li",
