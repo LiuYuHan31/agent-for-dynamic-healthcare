@@ -34,11 +34,14 @@ Edit `assets/data/people.js`.
 Each visible person card supports:
 
 - `name`
+- `title` for speakers
 - `affiliation`
+- `profileUrl`
 - `image`
 - `imageAlt`
+- `imagePosition` and `imageScale` for optional crop adjustments
 
-The speaker and organizer cards intentionally show only the photo, name, and affiliation. Use `assets/images/avatar-placeholder.svg` when photo usage rights are unclear.
+Speaker cards show photo, linked name, title, and affiliation. Organizer cards show photo, linked name, and affiliation. Use `assets/images/avatar-placeholder.svg` when photo usage rights are unclear.
 
 ## Update Schedule
 

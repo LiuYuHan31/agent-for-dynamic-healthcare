@@ -68,11 +68,29 @@ function createPersonCard(person) {
   imageFrame.append(image);
 
   const name = document.createElement("h3");
-  name.textContent = person.name;
+  if (person.profileUrl) {
+    const link = document.createElement("a");
+    link.href = person.profileUrl;
+    link.target = "_blank";
+    link.rel = "noopener noreferrer";
+    link.textContent = person.name;
+    name.append(link);
+  } else {
+    name.textContent = person.name;
+  }
+
+  const details = [];
+  if (person.title) details.push(person.title);
+  if (person.affiliation) details.push(person.affiliation);
 
   const affiliation = document.createElement("p");
   affiliation.className = "person-affiliation";
-  affiliation.textContent = person.affiliation;
+  affiliation.replaceChildren(...details.map((item, index) => {
+    const fragment = document.createDocumentFragment();
+    if (index > 0) fragment.append(document.createElement("br"));
+    fragment.append(document.createTextNode(item));
+    return fragment;
+  }));
 
   article.append(imageFrame, name, affiliation);
   return article;
