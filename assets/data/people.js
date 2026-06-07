@@ -3,76 +3,76 @@ window.workshopPeople = {
     {
       name: "James Zou",
       affiliation: "Stanford University",
-      image: "assets/images/avatar-placeholder.svg",
-      imageAlt: "Placeholder avatar for James Zou"
+      image: "pic/jameszou.jpg.avif",
+      imageAlt: "Photo of James Zou"
     },
     {
       name: "Xiangliang Zhang",
       affiliation: "University of Notre Dame",
-      image: "assets/images/avatar-placeholder.svg",
-      imageAlt: "Placeholder avatar for Xiangliang Zhang"
+      image: "pic/xiangliang.png",
+      imageAlt: "Photo of Xiangliang Zhang"
     },
     {
       name: "Alan Yuille",
       affiliation: "Johns Hopkins University",
-      image: "assets/images/avatar-placeholder.svg",
-      imageAlt: "Placeholder avatar for Alan Yuille"
+      image: "pic/alan.jpg",
+      imageAlt: "Photo of Alan Yuille"
     },
     {
       name: "Mahnaz Maddah",
       affiliation: "Broad Institute of MIT and Harvard",
-      image: "assets/images/avatar-placeholder.svg",
-      imageAlt: "Placeholder avatar for Mahnaz Maddah"
+      image: "pic/Mahnaz-Maddah-bio.png",
+      imageAlt: "Photo of Mahnaz Maddah"
     },
     {
       name: "Jonathan H. Chen",
       affiliation: "Stanford Medicine",
-      image: "assets/images/avatar-placeholder.svg",
-      imageAlt: "Placeholder avatar for Jonathan H. Chen"
+      image: "pic/Jonathan.jpg",
+      imageAlt: "Photo of Jonathan H. Chen"
     },
     {
       name: "Daguang Xu",
       affiliation: "NVIDIA Research",
-      image: "assets/images/avatar-placeholder.svg",
-      imageAlt: "Placeholder avatar for Daguang Xu"
+      image: "pic/Daguang.jpg",
+      imageAlt: "Photo of Daguang Xu"
     }
   ],
   organizers: [
     {
       name: "Yichen Wu",
       affiliation: "Mass General Brigham / Harvard Medical School",
-      image: "assets/images/avatar-placeholder.svg",
-      imageAlt: "Placeholder avatar for Yichen Wu"
+      image: "pic/yichen.jpg",
+      imageAlt: "Photo of Yichen Wu"
     },
     {
       name: "Yuhan Liu",
       affiliation: "Mohamed bin Zayed University of Artificial Intelligence",
-      image: "assets/images/avatar-placeholder.svg",
-      imageAlt: "Placeholder avatar for Yuhan Liu"
+      image: "pic/yuhan.png",
+      imageAlt: "Photo of Yuhan Liu"
     },
     {
       name: "Xiang Li",
       affiliation: "Massachusetts General Hospital / Harvard Medical School",
-      image: "assets/images/avatar-placeholder.svg",
-      imageAlt: "Placeholder avatar for Xiang Li"
+      image: "pic/xianli.jpeg",
+      imageAlt: "Photo of Xiang Li"
     },
     {
       name: "Wengong Jin",
       affiliation: "Northeastern University / Broad Institute of MIT and Harvard",
-      image: "assets/images/avatar-placeholder.svg",
-      imageAlt: "Placeholder avatar for Wengong Jin"
+      image: "pic/wengong.jpg",
+      imageAlt: "Photo of Wengong Jin"
     },
     {
       name: "Ruogu Fang",
       affiliation: "Vanderbilt University",
-      image: "assets/images/avatar-placeholder.svg",
-      imageAlt: "Placeholder avatar for Ruogu Fang"
+      image: "pic/ruogufang.jpg",
+      imageAlt: "Photo of Ruogu Fang"
     },
     {
       name: "Marzyeh Ghassemi",
       affiliation: "MIT EECS and IMES",
-      image: "assets/images/avatar-placeholder.svg",
-      imageAlt: "Placeholder avatar for Marzyeh Ghassemi"
+      image: "pic/marzyeh.jpeg",
+      imageAlt: "Photo of Marzyeh Ghassemi"
     }
   ]
 };
