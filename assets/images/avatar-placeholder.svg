@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="256" height="256" viewBox="0 0 256 256" role="img" aria-labelledby="title desc">
+  <title id="title">Placeholder avatar</title>
+  <desc id="desc">Abstract profile avatar for workshop speaker and organizer cards.</desc>
+  <rect width="256" height="256" rx="24" fill="#ffffff"/>
+  <circle cx="128" cy="88" r="38" fill="#925eb0"/>
+  <path d="M52 214c8-45 36-72 76-72s68 27 76 72" fill="#16171c"/>
+  <path d="M48 54c26-24 58-36 96-36 25 0 47 5 66 16" fill="none" stroke="#cc7c71" stroke-width="10" stroke-linecap="round"/>
+  <path d="M42 232c25-21 54-31 86-31 34 0 63 10 86 31" fill="none" stroke="#7ab656" stroke-width="10" stroke-linecap="round"/>
+</svg>
