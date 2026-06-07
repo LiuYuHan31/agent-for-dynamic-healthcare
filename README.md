@@ -31,18 +31,14 @@ You can also open `index.html` directly in a browser, but a local HTTP server be
 
 Edit `assets/data/people.js`.
 
-Each person entry supports:
+Each visible person card supports:
 
 - `name`
 - `affiliation`
-- `role`
-- `bio`
-- `profileUrl`
-- `email`
 - `image`
 - `imageAlt`
 
-Profile links should be official personal, institutional, lab, or company pages. Use `assets/images/avatar-placeholder.svg` when photo usage rights are unclear.
+The speaker and organizer cards intentionally show only the photo, name, and affiliation. Use `assets/images/avatar-placeholder.svg` when photo usage rights are unclear.
 
 ## Update Schedule
 

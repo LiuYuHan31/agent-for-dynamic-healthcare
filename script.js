@@ -44,23 +44,9 @@ sections.forEach((section) => observer.observe(section));
 const peopleData = window.workshopPeople || { speakers: [], organizers: [] };
 const fallbackImage = "assets/images/avatar-placeholder.svg";
 
-function makeExternalLink(href, text) {
-  const link = document.createElement("a");
-  link.href = href;
-  link.textContent = text;
-  if (!href.startsWith("mailto:")) {
-    link.target = "_blank";
-    link.rel = "noopener noreferrer";
-  }
-  return link;
-}
-
 function createPersonCard(person) {
   const article = document.createElement("article");
   article.className = "person-card";
-
-  const top = document.createElement("div");
-  top.className = "person-top";
 
   const image = document.createElement("img");
   image.className = "person-photo";
@@ -72,31 +58,14 @@ function createPersonCard(person) {
     image.alt = `Placeholder avatar for ${person.name}`;
   });
 
-  const headingWrap = document.createElement("div");
   const name = document.createElement("h3");
   name.textContent = person.name;
-  const role = document.createElement("p");
-  role.className = "person-role";
-  role.textContent = person.role;
+
   const affiliation = document.createElement("p");
   affiliation.className = "person-affiliation";
   affiliation.textContent = person.affiliation;
-  headingWrap.append(name, role, affiliation);
-  top.append(image, headingWrap);
 
-  const body = document.createElement("div");
-  body.className = "person-body";
-  const bio = document.createElement("p");
-  bio.className = "person-bio";
-  bio.textContent = person.bio;
-
-  const links = document.createElement("div");
-  links.className = "person-links";
-  if (person.profileUrl) links.append(makeExternalLink(person.profileUrl, person.profileLabel || "Profile"));
-  if (person.email) links.append(makeExternalLink(`mailto:${person.email}`, "Email"));
-
-  body.append(bio, links);
-  article.append(top, body);
+  article.append(image, name, affiliation);
   return article;
 }
 
