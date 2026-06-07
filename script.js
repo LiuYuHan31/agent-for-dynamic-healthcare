@@ -48,6 +48,9 @@ function createPersonCard(person) {
   const article = document.createElement("article");
   article.className = "person-card";
 
+  const imageFrame = document.createElement("div");
+  imageFrame.className = "person-photo-frame";
+
   const image = document.createElement("img");
   image.className = "person-photo";
   image.src = person.image || fallbackImage;
@@ -57,6 +60,12 @@ function createPersonCard(person) {
     image.src = fallbackImage;
     image.alt = `Placeholder avatar for ${person.name}`;
   });
+  if (person.imagePosition) {
+    image.style.objectPosition = person.imagePosition;
+    image.style.transformOrigin = person.imagePosition;
+  }
+  if (person.imageScale) image.style.transform = `scale(${person.imageScale})`;
+  imageFrame.append(image);
 
   const name = document.createElement("h3");
   name.textContent = person.name;
@@ -65,7 +74,7 @@ function createPersonCard(person) {
   affiliation.className = "person-affiliation";
   affiliation.textContent = person.affiliation;
 
-  article.append(image, name, affiliation);
+  article.append(imageFrame, name, affiliation);
   return article;
 }
 

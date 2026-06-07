@@ -4,7 +4,8 @@ window.workshopPeople = {
       name: "James Zou",
       affiliation: "Stanford University",
       image: "pic/jameszou.jpg.avif",
-      imageAlt: "Photo of James Zou"
+      imageAlt: "Photo of James Zou",
+      imagePosition: "center top"
     },
     {
       name: "Xiangliang Zhang",
@@ -26,7 +27,7 @@ window.workshopPeople = {
     },
     {
       name: "Jonathan H. Chen",
-      affiliation: "Stanford Medicine",
+      affiliation: "Stanford University",
       image: "pic/Jonathan.jpg",
       imageAlt: "Photo of Jonathan H. Chen"
     },
@@ -34,31 +35,33 @@ window.workshopPeople = {
       name: "Daguang Xu",
       affiliation: "NVIDIA Research",
       image: "pic/Daguang.jpg",
-      imageAlt: "Photo of Daguang Xu"
+      imageAlt: "Photo of Daguang Xu",
+      imagePosition: "center top",
+      imageScale: "1.28"
     }
   ],
   organizers: [
     {
       name: "Yichen Wu",
-      affiliation: "Mass General Brigham / Harvard Medical School",
+      affiliation: "Harvard University",
       image: "pic/yichen.jpg",
       imageAlt: "Photo of Yichen Wu"
     },
     {
       name: "Yuhan Liu",
-      affiliation: "Mohamed bin Zayed University of Artificial Intelligence",
+      affiliation: "MBZUAI",
       image: "pic/yuhan.png",
       imageAlt: "Photo of Yuhan Liu"
     },
     {
       name: "Xiang Li",
-      affiliation: "Massachusetts General Hospital / Harvard Medical School",
+      affiliation: "Harvard University",
       image: "pic/xianli.jpeg",
       imageAlt: "Photo of Xiang Li"
     },
     {
       name: "Wengong Jin",
-      affiliation: "Northeastern University / Broad Institute of MIT and Harvard",
+      affiliation: "Northeastern University",
       image: "pic/wengong.jpg",
       imageAlt: "Photo of Wengong Jin"
     },
