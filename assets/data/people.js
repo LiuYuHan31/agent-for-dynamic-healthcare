@@ -43,7 +43,7 @@ window.workshopPeople = {
   organizers: [
     {
       name: "Yichen Wu",
-      affiliation: "Harvard University",
+      affiliation: "Mass General Brigham / Harvard Medical School",
       image: "pic/yichen.jpg",
       imageAlt: "Photo of Yichen Wu"
     },
@@ -55,7 +55,7 @@ window.workshopPeople = {
     },
     {
       name: "Xiang Li",
-      affiliation: "Harvard University",
+      affiliation: "Massachusetts General Hospital / Harvard Medical School",
       image: "pic/xianli.jpeg",
       imageAlt: "Photo of Xiang Li"
     },
